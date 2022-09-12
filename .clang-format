@@ -1,0 +1,70 @@
+# We'll use defaults from the LLVM style
+BasedOnStyle: LLVM
+
+# The number of columns to use for indentation.
+IndentWidth: 4
+AccessModifierOffset: -4
+# The column limit.
+ColumnLimit: 100
+
+# The brace breaking style to use.
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterNamespace: true
+  AfterClass: true
+  AfterFunction: true
+  AfterStruct: false
+  AfterUnion: false
+  AfterEnum: false
+  BeforeCatch: true
+  BeforeElse: true
+  AfterControlStatement: false
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+
+# Align parameters on the open bracket.
+AlignAfterOpenBracket: Align
+
+# Style of aligning consecutive assignments.
+AlignConsecutiveAssignments: AcrossComments
+
+# Style of aligning consecutive declarations.
+AlignConsecutiveDeclarations: AcrossComments
+
+# Style of aligning consecutive macro definitions.
+AlignConsecutiveMacros: AcrossComments
+
+# Options for aligning backslashes in escaped newlines.
+AlignEscapedNewlines: Right
+
+# aligns trailing comments.
+AlignTrailingComments: true
+
+# putting elements onto the next line.
+AllowAllArgumentsOnNextLine: false
+AllowAllConstructorInitializersOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AlwaysBreakTemplateDeclarations: Yes
+BinPackParameters: false
+BinPackArguments : false
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
+BreakInheritanceList: BeforeComma
+BreakStringLiterals: true
+
+# The preprocessor directive indenting style to use.
+IndentPPDirectives: None
+
+# The SortIncludesOptions
+SortIncludes: false
+
+# The indentation used for namespaces.
+NamespaceIndentation: All
+
+# Parse and format C++ constructs compatible with this standard.
+Standard: Latest
